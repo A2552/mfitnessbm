@@ -1,0 +1,129 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+ Header Styles */
+/*
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+ Prayer Times Styles */
+
+.prayer-times {
+    padding: 2em;
+    background-image: url(../images/hero-b.jpg);
+    background-size: cover; /* تكبير الصورة لتملأ الشاشة بأكملها */
+    background-position: center; /* محاذاة الصورة في المنتصف */
+    background-repeat: no-repeat; /* عدم تكرار الصورة */
+}
+
+.table-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.prayer-times table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.prayer-times th, .prayer-times td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.prayer-times th {
+    background-color: #333;
+    color: #fff;
+}
+
+.prayer-times td {
+    background-color: #f9f9f9;
+}
+
+
+
+/* ... */
+
+.table-container {
+    background-color: rgba(255, 255, 255, 0.5); /* reduce opacity to make it transparent */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.prayer-times table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent; /* make the table background transparent */
+}
+
+.prayer-times th, .prayer-times td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent; /* make the table cells background transparent */
+}
+
+.prayer-times th {
+    color: #fff;
+}
+
+.prayer-times td {
+    color: #000000;
+}
+
+/* Responsive Design */
+
+/* Mobile Devices (max-width: 480px) */
+
+@media only screen and (max-width: 480px) {
+    .table-container {
+        padding: 10px;
+        margin: 20px auto;
+    }
+    .prayer-times table {
+        font-size: 12px;
+    }
+}
+
+/* Small Tablets (min-width: 481px) and (max-width: 768px) */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .table-container {
+        padding: 15px;
+        margin: 30px auto;
+    }
+    .prayer-times table {
+        font-size: 14px;
+    }
+}
+
+/* Large Tablets (min-width: 769px)
