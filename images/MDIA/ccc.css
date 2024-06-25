@@ -1,0 +1,35 @@
+.footer {
+    padding: 50px 0;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);
+    background: linear-gradient(to right, #0f9b0f, #000000);
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* تعديل المسافة بين الأيقونات والنص السفلي */
+    margin-top: 30px;
+    
+}
+
+.social-icons .icon {
+    margin: 0 10px; /* تعديل المسافة بين الأيقونات */
+}
+
+.social-icons .icon img {
+    width: 50px; /* تعديل حجم الصورة حسب الحاجة */
+    height: auto;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.topimg{
+    margin: 20px;
+}
