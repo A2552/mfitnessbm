@@ -70,11 +70,9 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url(../images/hero-bg.jpg);
-      background-size: cover; /* تكبير الصورة لتملأ الشاشة بأكملها */
-    background-position: center; /* محاذاة الصورة في المنتصف */
-    background-repeat: no-repeat; /* عدم تكرار الصورة */
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: cover; /* تكبير الصورة لتملأ الشاشة بأكملها */
+  background-position: center; /* محاذاة الصورة في المنتصف */
+  background-repeat: no-repeat; /* عدم تكرار الصورة */
 }
 
 .sub_page .hero_area {
